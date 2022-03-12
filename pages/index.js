@@ -339,7 +339,7 @@ export default function Home() {
           </div>
           <div className='h-64 w-full bg-blue-300  ' >
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15874.741567781039!2d-0.0914454!3d5.8997389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4d00d5d587bc0e4!2sShai-Osudoku%20District%20Hospital!5e0!3m2!1sen!2sgh!4v1644104984921!5m2!1sen!2sgh"
-              allowFullscreen loading="lazy" className="w-full h-full" ></iframe>
+              allowFullScreen loading="lazy" className="w-full h-full" ></iframe>
           </div>
         </div>
       </section>
