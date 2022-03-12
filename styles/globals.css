@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #605B60;
 }
 
 a {
@@ -13,4 +21,52 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@layer components{
+
+  .main__bg {
+    @apply bg-cover relative bg-center bg-no-repeat before:w-full before:h-full before:absolute before:top-0 before:right-0 before:bg-slate-500 before:opacity-70 
+  }
+
+  .primary {
+    @apply w-fit rounded py-2 px-5 bg-orange-light font-gothic font-bold text-white
+  }
+
+  .secondary {
+    @apply w-fit rounded py-2 px-5 bg-orange-dark font-gothic font-bold text-orange-light
+  }
+  
+  .tetiary {
+    @apply w-fit rounded py-2 px-5 font-gothic  bg-none text-main-light text-sm font-bold 
+  }
+
+  .active__btn {
+    @apply text-orange-light font-bold hover:text-orange-light
+  }
+
+  .page__title {
+    @apply  text-5xl text-orange-light font-bold font-gothic text-center uppercase
+  }
+
+  .large__text {
+    @apply text-5xl text-main-white font-bold font-gothic
+  }
+
+  .medium__text {
+    @apply text-3xl font-bold font-gothic
+  }
+
+  .normal__text {
+    @apply text-sm text-main-white font-normal font-gothic
+  }
+  
+  .card__title {
+    @apply text-base text-black font-extrabold font-gothic text-center
+  }
+
+  .section__head {
+    @apply font-gothic font-extrabold text-lg text-orange-light uppercase
+  }
+
 }
