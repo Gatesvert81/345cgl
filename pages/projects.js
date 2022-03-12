@@ -7,7 +7,7 @@ import home from '../public/home.jpg'
 import house from '../public/house.jpg'
 import real from '../public/real-house.jpg'
 
-function projects() {
+function Projects() {
 
     const [activeNav, setActiveNav] = useContext(NavContext)
 
@@ -67,4 +67,4 @@ function projects() {
     )
 }
 
-export default projects
+export default Projects

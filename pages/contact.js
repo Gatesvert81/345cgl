@@ -5,7 +5,7 @@ import { NavContext } from '../src/Components/Context'
 import Button from '../src/Components/Button'
 import axios from 'axios'
 
-function contact() {
+function Contact() {
 
     const [activeNav, setActiveNav] = useContext(NavContext)
 
@@ -127,4 +127,4 @@ function contact() {
     )
 }
 
-export default contact
+export default Contact

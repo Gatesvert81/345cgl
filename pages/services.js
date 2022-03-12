@@ -4,7 +4,7 @@ import Head from 'next/head'
 import ServiceCard from '../src/Components/ServiceCard'
 import { NavContext } from '../src/Components/Context'
 
-const services = () => {
+const Services = () => {
 
     const [activeNav, setActiveNav] = useContext(NavContext)
 
@@ -62,4 +62,4 @@ const services = () => {
     )
 }
 
-export default services
+export default Services

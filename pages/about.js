@@ -5,7 +5,7 @@ import AdvantageCard from '../src/Components/AdvantageCard'
 import ProfileCard from '../src/Components/ProfileCard'
 import { NavContext } from '../src/Components/Context'
 
-function about() {
+function About() {
 
   const [activeNav, setActiveNav] = useContext(NavContext)
 
@@ -119,4 +119,4 @@ function about() {
   )
 }
 
-export default about
+export default About
