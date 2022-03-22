@@ -92,7 +92,7 @@ export default function Home() {
 
   return (
     <motion.div
-      className='w-full h-full py-top bg-main-bg'
+      className='w-full h-full pb-top bg-main-bg'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ scale: 0.9, opacity: 0 }}
@@ -103,7 +103,7 @@ export default function Home() {
         <link rel="icon" href="/345logo.png" />
       </Head>
 
-      <main className='w-full h-screen px-side flex flex-col md:flex-row justify-center md:justify-between items-center py-side gap-5 ' >
+      <main className='w-full h-screen px-side main__bg flex flex-col justify-center items-center py-side gap-5 bg-man ' >
         {/* px-side flex flex-row justify-between items-center */}
         <div className='w-full flex flex-col gap-5'  >
           <div className='flex flex-col justify-start gap-3' >
@@ -160,15 +160,7 @@ export default function Home() {
             </AnchorLink>
           </motion.div>
         </div>
-        <motion.div
-          className='w-4/5 h-1/3 md:w-3/6 md:h-64 relative flex flex-col justify-center items-center '
-          initial={{ opacity: 0, y: '50%' }}
-          animate={{ opacity: 1, y: '0' }}
-          transition={{ delay: 0.5 }}
-        >
-          <div className='w-full h-full relative bg-construction bg-center bg-cover bg-no-repeat ' />
-          <div className=' absolute -left-10 -bottom-10 w-44 h-36 bg-head bg-center bg-cover bg-no-repeat border-8 border-main-bg ' />
-        </motion.div>
+        
       </main>
 
       <motion.section
