@@ -35,6 +35,7 @@ module.exports = {
         "half": "50vh"
       },
       backgroundImage: {
+        'logo': "url('/345logo.png')",
         'man': "url('/man.jpg')",
         "head": "url('/head.jpg')",
         'construction': "url('/construction.jpg')",

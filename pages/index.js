@@ -139,7 +139,7 @@ export default function Home() {
               animate={{ opacity: 1, y: '0' }}
               transition={{ delay: 0.9 }}
             >
-              We are your trusted General Building and Construction Constructors, sub-contractors, Project Supervisors, Managers and Developers.
+              We are your trusted General Building and Construction Contractors, sub-contractors, Project Supervisors, Managers and Developers.
             </motion.p>
           </div>
           <motion.div
@@ -188,7 +188,7 @@ export default function Home() {
           </div>
           <div>
             <p className='normal__text text-black'>
-              We are your trusted General Building and Construction Constructors, sub-contractors, Project Supervisors, Managers and Developers.
+              We are your trusted General Building and Construction Contractors, sub-contractors, Project Supervisors, Managers and Developers.
             </p>
           </div>
           <div>
